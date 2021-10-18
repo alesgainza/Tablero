@@ -1,0 +1,13 @@
+#logo {
+	width: 15%;
+}
+
+#logo-automotive {
+	width:19%;
+}
+
+#hour {
+	height: 50px;
+	pointer-events: none;
+	cursor: default;
+}

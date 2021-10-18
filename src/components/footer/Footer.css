@@ -1,0 +1,40 @@
+.barraContacto p  {
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+    animation: barracontacto 30s linear infinite;
+}
+
+.barraContacto p, .barraContacto p a {
+    color: #000000;
+    font-size: 25px;
+    font-family: "Poppins";
+    font-weight: 500;
+}
+
+.barraContacto {
+    position: fixed;
+    bottom: 0;
+    height: 35px;
+    width: 100%;
+    background-color: #fff;
+    border-top: 2px solid #121212;
+    color: #121212;
+    font-size: 25px !important;
+    z-index: 999;
+}
+
+@keyframes barracontacto {
+	0% {
+		transform: translateX(100vw);
+	}
+	100% {
+		transform: translateX(-100%);
+	}
+}
+
+@media screen and (max-width: 980px) {
+    .barraContacto {
+        display: none;
+    }
+}

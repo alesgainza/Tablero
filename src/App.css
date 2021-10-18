@@ -1,0 +1,10 @@
+.App {
+  text-align: center;
+  margin: 0;
+  background-image: url("./files/fondo_CIE.jpg");
+  background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+  height: 100vh;
+  overflow: auto;
+}
